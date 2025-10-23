@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.command-button, #capture-keyboard {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+#capture-keyboard {
+    border-radius: 8px;
+}
+
+tspan {
+    pointer-events: none;
+}
