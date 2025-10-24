@@ -1,0 +1,14 @@
+[Unit]
+Description=A python script for controlling the beamer
+After=network.target
+Wants=network-online.target
+
+[Service]
+Restart=always
+Type=simple
+ExecStart=.venv/bin/python main.py
+WorkingDirectory=/home/iot-scripts/python-beamer-remote
+Environment=
+
+[Install]
+WantedBy=multi-user.target
